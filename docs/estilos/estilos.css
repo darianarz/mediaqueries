@@ -1,16 +1,21 @@
 header{
-    border: 1px solid blue; 
+    border: 1px solid black; 
     height: 100px;
 }
 
 @media (max-width:425px) { 
     header {
-    background: green;    
+    background: rgb(2, 206, 2);    
     }
    
 }
 @media (min-width:800px) {
     header {
-    background: red;  
+        background: rgb(14, 226, 14);    
+        }   
+}
+@media (min-width:420px) and (max-width: 800px) {
+    header {
+    background: rgb(83, 131, 87);  
     }
 }
