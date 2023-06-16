@@ -46,6 +46,7 @@ ul li {
         display: inline;
         display: none;
     }
+ 
    
 }
 @media (min-width:420px) and (max-width: 800px) {
@@ -54,5 +55,11 @@ ul li {
         float: left;
         display: inline;
         display: none;
+    }
+    ul li {
+        float: none;
+        margin-left: 0px;
+        margin-right:60px ;
+        
     }
 }
